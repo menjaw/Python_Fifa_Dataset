@@ -1,8 +1,13 @@
 # Python_Fifa_Dataset
 
+- Open Jupyter to check the code
+- Python file: The code is inserted directly from the Jupyter fields as it is a requirement. we only use Jupyter at the moment
+
 
 There was no time to refactor the code this time! So a lot could have been done smarter and more pretty, we know!
-SEE CODE: https://github.com/menjaw/Python_Fifa_Datasets/blob/master/Fifa%20questions.ipynb
+- SEE CODE: https://github.com/menjaw/Python_Fifa_Datasets/blob/master/Fifa%20questions.ipynb
+
+
 
 #### QUESTION 1: The 3 most expensive teams according to player value.
     - ANSWER: Paris Saint-Germain and FC Barcelona is the most expensive teams 
