@@ -89,10 +89,3 @@ There was no time to refactor the code this time! So a lot could have been done 
 
 
 
-#### Help finding a solution for:
-#Question 3: 
-Python printing (Need a solution to line break to seperate the first and second row)
--release_clause = dataframe['eur_release_clause'].nlargest(10)
--eur_value = dataframe['eur_value'].nlargest(10)
--print("Top 10 release clause:{}".format(release_clause))
--print("Top 10 eur value:{}".format(eur_value)) if provided, specifies a function of one argument that is used to extract a comparison key from each element in the iterable: key=str.lower Equivalent to: sorted(iterable, key=key, reverse=True)[:n]
