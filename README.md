@@ -1,7 +1,10 @@
 # Python_Fifa_Dataset
 
-- Open Jupyter to check the code
-- Python file: The code is inserted directly from the Jupyter fields as it is a requirement. we only use Jupyter at the moment
+#### Open Jupyter to check the code
+#### Python file: 
+	-1: In the PyCharm IDE just open the file and run it. 
+		- Download IDE here: https://www.jetbrains.com/pycharm/download/#section=windows
+	-2: If you are using another IDE figured it out yourself.
 
 
 There was no time to refactor the code this time! So a lot could have been done smarter and more pretty, we know!
