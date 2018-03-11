@@ -61,12 +61,12 @@ print(result[271:272])
 #Question 2: Which nationality is the most frequent amongst all players
 nationality = dataframe['nationality'].value_counts()
 
-nationality[0:10]
+print(nationality[0:10])
 
 #Question 3: What is the difference between the release clause and the value of top 10 most valuable players
 
-#release_clause = dataframe['eur_release_clause'].nlargest(10)
-#eur_value = dataframe['eur_value'].nlargest(10)
+release_clause = dataframe['eur_release_clause'].nlargest(10)
+eur_value = dataframe['eur_value'].nlargest(10)
 
 #Create dataframe with the wanted columns
 data = {
@@ -79,7 +79,7 @@ data = {
 
 #put columns together
 result = pd.DataFrame(data, columns=['Club', 'Name', 'Eur Value', 'Release Clause', 'Difference'])
-result
+print(result)
 
 #Question 4: Collect the needed data
 
@@ -94,7 +94,7 @@ data = {
 #put columns together
 result = pd.DataFrame(data, columns=['Name', 'Age', 'Height', 'Weight'])
 #Print specific amount of rows
-result[:10]
+print(result[:10])
 
 
 #Question 4: What is the frequency of age, height and weight for all players
@@ -102,7 +102,7 @@ ages = dataframe['age'].value_counts()
 heights = dataframe['height_cm'].value_counts()
 weights = dataframe['weight_kg'].value_counts()
 
-ages, heights, weights
+print(ages, heights, weights)
 
 
 #Question 5: How big is the average difference between value and wage of the players
@@ -119,6 +119,6 @@ data = {
 
 #put columns together
 result = pd.DataFrame(data, columns=['Name', 'Eur Value', 'Eur Wage', 'Difference (value, wage)', 'Average (value, wage)'])
-result[:10]
+print(result[:10])
 
 
