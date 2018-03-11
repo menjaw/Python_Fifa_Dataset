@@ -109,12 +109,13 @@ print(ages, heights, weights)
 
 
 #Create dataframe with the wanted columns
+eur_wage = dataframe['eur_wage']
 data = {
-    'Name':dataframe['full_name'][0:9],
-    'Eur Value':dataframe['eur_value'],
-    'Eur Wage':dataframe['eur_wage'],
-    'Difference (value, wage)':dataframe['eur_value'].subtract(eur_wage),
-    'Average (value, wage)':(dataframe['eur_value']+dataframe['eur_wage'])/2
+    'Name': dataframe['full_name'][0:9],
+    'Eur Value': dataframe['eur_value'],
+    'Eur Wage': dataframe['eur_wage'],
+    'Difference (value, wage)': dataframe['eur_value'].subtract(eur_wage),
+    'Average (value, wage)': (dataframe['eur_value']+dataframe['eur_wage'])/2
     } 
 
 #put columns together
