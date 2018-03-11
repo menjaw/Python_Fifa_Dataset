@@ -1,6 +1,7 @@
 # Python_Fifa_Dataset
 
 #### Open Jupyter to check the code
+or
 #### Python file: 
 	-1: In the PyCharm IDE just open the file and run it. 
 		- Download IDE here: https://www.jetbrains.com/pycharm/download/#section=windows
